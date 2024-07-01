@@ -1,10 +1,10 @@
 :root {
-    --branco-principal: #000000;
+    --branco-principal: #0a0404;
     --cinza-secundario: #ffffff;
     --botao-azul: #11d84d;
     --cor-de-fundo: #31882f;
     --fonte-principal: 'Inter';
-    --botao-azul-efeito: #fc8f00;
+    --botao-azul-efeito: #00ff2a;
 }
 
 body {
@@ -85,8 +85,9 @@ body {
 
 .descricao__texto {
     color: var(--cinza-secundario);
-}
+    align-items: justify;
 
+}
 .secundario__botao {
     display: inline-block;
     margin-top: 1em;
@@ -137,6 +138,7 @@ body {
 
 .rodape__texto {
     margin: 1em 0;
+    padding: 5%;
     color: var(--cinza-secundario);
     font-size: 14px;
 }
